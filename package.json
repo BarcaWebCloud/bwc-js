@@ -1,29 +1,40 @@
 {
-  "name": "@eloajs/core",
+  "name": "bwc",
   "version": "1.0.0",
-  "description": "A Framework Node.js server-side to JavaScript & TypeScript",
+  "description": "BWC for JavaScript & TypeScript",
   "keywords": [
-    "eloajs",
+    "barca",
+    "barca-cloud",
+    "bwc",
+    "liarca",
+    "harpia",
+    "mamute",
     "nodejs",
-    "node",
     "javascript",
     "typescript"
   ],
-  "authors": [
-    "@ahsouza Aníbal Henrique De Souza <anibal.souza@eloajs.org"
-  ],
-  "homepage": "https://github.com/eloajs/core#readme",
-  "bugs": {
-    "url": "https://github.com/eloajs/core/issues",
-    "email": "support@eloajs.org"
+  "author": {
+    "name": "Barca Web Cloud",
+    "url": "https://cloud.barca.com/"
   },
-  "main": "index.js",
+  "contributors": [
+    "Aníbal Henrique <anibalsouza@barca.com>"
+  ],
+  "homepage": "https://github.com/BarcaWebCloud/bwc-js#readme",
+  "bugs": {
+    "url": "https://github.com/BarcaWebCloud/bwc-js/issues",
+    "email": "support@barca.com"
+  },
+  "main": "lib/bwc.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eloajs/core.git"
+    "url": "https://github.com/BarcaWebCloud/bwc-js.git"
   },
   "license": "MIT",
   "private": false,
